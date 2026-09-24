@@ -95,9 +95,8 @@ export const projects: Project[] = [
   title: "Climate Visibility",
   description:
     "A data-driven environmental monitoring application that provides insights into air quality, weather conditions, pollutants, and climate-related data to help users better understand their surrounding environment.",
-  tech: [
-    "Python","Pandas","NumPy","Matplotlib","Data Visualization","Machine Learning","API Integration"
-  ],
+
+  tech: ["Python","Pandas","NumPy","Matplotlib","Data Visualization","Machine Learning","API Integration"],
   highlights: [
     "Visualized environmental data including AQI, temperature, humidity, CO₂, and major air pollutants.",
     "Built interactive dashboards and charts to monitor air-quality trends and weather conditions.",
@@ -108,33 +107,47 @@ export const projects: Project[] = [
     demo: "",
   },
   {
-    slug: "myntra-review-analysis",
-    title: "Myntra Review Analysis",
-    description: "TODO: add a short description of what this project does and the problem it solves.",
-    tech: [],
-    highlights: [],
-    image: null,
-    github: "",
-    demo: "",
-  },
+  slug: "myntra-review-analysis",
+  title: "Myntra Review Analysis",
+  description:
+    "A data analysis and visualization project that analyzes customer reviews from Myntra to identify customer sentiment, review patterns, and product feedback, helping uncover useful insights from user opinions.",
+  tech: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Natural Language Processing", "Data Visualization"],
+  highlights: [
+    "Collected and analyzed Myntra customer reviews to identify sentiment and recurring feedback patterns.",
+    "Performed data cleaning, preprocessing, exploratory analysis, and visualization on review data.",
+    "Extracted actionable insights from customer opinions to understand product satisfaction and common concerns."
+  ],
+  image: null,
+  github: "",
+  demo: "",
+},
+ {
+  slug: "lung-disease-diagnosis",
+  title: "Lung Disease Diagnosis",
+  description:
+    "A machine learning-based diagnostic system that analyzes medical data and lung-related features to predict the likelihood of lung disease, supporting early detection and data-driven clinical assessment.",
+  tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Machine Learning", "Data Preprocessing", "Data Visualization"],
+  highlights: [
+    "Built a machine learning model to classify and predict potential lung disease cases.",
+    "Performed data preprocessing, feature analysis, and model evaluation to improve prediction reliability.",
+    "Used classification metrics to evaluate model performance and generate interpretable diagnostic predictions."
+  ],
+  image: null,
+  github: "",
+  demo: "",
+},
   {
-    slug: "lung-disease-diagnosis",
-    title: "Lung Disease Diagnosis",
-    description: "TODO: add a short description of what this project does and the problem it solves.",
-    tech: [],
-    highlights: [],
-    image: null,
-    github: "",
-    demo: "",
-  },
-  {
-    slug: "zerodha-clone",
-    title: "Zerodha Clone",
-    description: "TODO: add a short description of what this project does and the problem it solves.",
-    tech: [],
-    highlights: [],
-    image: "projects/zerodha-clone.png",
-    github: "",
-    demo: "",
-  },
-];
+  slug: "zerodha-clone",
+  title: "Zerodha Clone",
+  description:
+    "A responsive stock trading platform clone inspired by Zerodha, designed to replicate the core interface and user experience of a modern online trading application.",
+  tech: ["React.js", "JavaScript", "HTML", "CSS", "MongoDB", "Node.js", "Express.js"],
+  highlights: [
+    "Built a responsive trading dashboard with stock listings, portfolio views, and market information.",
+    "Implemented user-focused interfaces inspired by real-world online trading platforms.",
+    "Developed reusable components and structured the application for a smooth and scalable user experience."],
+  image: "/projects/zerodha-clone.png",
+  github: "",
+  demo: "",
+}
+]

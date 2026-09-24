@@ -1,0 +1,43 @@
+// ─────────────────────────────────────────────────────────────
+// EDUCATION
+// ─────────────────────────────────────────────────────────────
+
+export type EducationItem = {
+  id: string;
+  degree: string;
+  institution: string;
+  period: string;
+  detail?: string;
+};
+
+export const education: EducationItem[] = [
+  {
+    id: "btech",
+    degree: "B.Tech in Computer Science Engineering",
+    institution: "Nanhi Pari Seemant Engineering Institute (NPSEI), Pithoragarh — Veer Madho Singh Bhandari Uttarakhand Technical University",
+    period: "2026",
+  },
+  {
+    id: "class-xii",
+    degree: "Class XII, CBSE",
+    institution: "Udayan International School, Champawat",
+    period: "2022",
+    detail: "62.4%",
+  },
+  {
+    id: "class-x",
+    degree: "Class X, CBSE",
+    institution: "Udayan International School, Champawat",
+    period: "2020",
+    detail: "84.6%",
+  },
+];
+
+export const currentlyExploring: string[] = [
+  "Generative AI",
+  "Large Language Models",
+  "Advanced Machine Learning",
+  "Data Analytics",
+  "MLOps",
+  "Cloud",
+];

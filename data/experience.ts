@@ -1,7 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-// EXPERIENCE — add a new role/internship by adding an object here.
-// "isVirtual" clearly labels virtual internships / job simulations.
-// ─────────────────────────────────────────────────────────────
 
 export type Experience = {
   id: string;

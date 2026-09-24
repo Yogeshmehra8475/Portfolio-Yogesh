@@ -1,7 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-// SKILLS — add/remove items freely, the UI adapts automatically.
-// "domain" is used for the Data & AI Lab section groupings below.
-// ─────────────────────────────────────────────────────────────
 
 export type SkillGroup = {
   title: string;

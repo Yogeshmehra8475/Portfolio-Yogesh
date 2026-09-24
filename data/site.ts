@@ -3,9 +3,7 @@ export const site = {
   name: "Yogesh Singh Mehra",
   role: "Data Science · Machine Learning · AI",
   tagline: "Turning Data Into Insights. Building Intelligence Into Products.",
-  // TODO: replace with your deployed domain once you host the site
-  // (used for SEO/social-share metadata only — safe to leave as-is for local dev).
-  siteUrl: "https://your-domain-here.vercel.app",
+  siteUrl: "https://portfolio-yogesh-delta.vercel.app/",
   email: "yogeshmehra2509@gmail.com",
   location: "Uttarakhand, India",
   about: [

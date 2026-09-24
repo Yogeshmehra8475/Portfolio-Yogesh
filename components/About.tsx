@@ -26,7 +26,7 @@ export default function About() {
             className="mt-8"
           >
             <img
-              src="/projects/profile.png"
+              src="/profile/profile.png"
               alt="Yogesh Singh Mehra"
               className="w-48 h-48 sm:w-56 sm:h-56 object-cover rounded-2xl border border-line"
             />

@@ -19,9 +19,9 @@ export default function Certifications() {
           className="max-w-2xl mb-12"
         >
           <h2 className="font-display text-3xl sm:text-4xl font-semibold text-paper">Certifications</h2>
-          <p className="mt-3 text-fog">
+          {/* <p className="mt-3 text-fog">
             Add a new certificate any time by editing <code className="text-xs text-insight">data/certificates.ts</code>.
-          </p>
+          </p> */}
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

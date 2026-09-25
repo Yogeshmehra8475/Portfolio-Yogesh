@@ -16,6 +16,7 @@ export const education: EducationItem[] = [
     degree: "B.Tech in Computer Science Engineering",
     institution: "Nanhi Pari Seemant Engineering Institute (NPSEI), Pithoragarh — Veer Madho Singh Bhandari Uttarakhand Technical University",
     period: "2026",
+    detail: "CGPA: 7",
   },
   {
     id: "class-xii",

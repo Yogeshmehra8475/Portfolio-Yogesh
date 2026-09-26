@@ -35,10 +35,13 @@ export const education: EducationItem[] = [
 ];
 
 export const currentlyExploring: string[] = [
-  "Generative AI",
+  "Data Science",
+  "Artificial Intelligence",
+  "Data Analytics",
+  "Deep Learning",
   "Large Language Models",
   "Advanced Machine Learning",
-  "Data Analytics",
   "MLOps",
+  "Generative AI",
   "Cloud",
 ];

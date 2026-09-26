@@ -1,14 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-// CERTIFICATIONS — add a new certificate by adding an object to
-// this array. No other file needs to change.
-//
-// Fields:
-//   image  → put the certificate image in /public/certificates/
-//            and point to it, e.g. "/certificates/pw-genai.png".
-//            Leave null for a placeholder tile.
-//   date   → keep the "TODO" placeholders until you fill in the
-//            real issue date — nothing was invented here.
-// ─────────────────────────────────────────────────────────────
 
 export type Certificate = {
   id: string;
@@ -28,7 +17,7 @@ export const certificates: Certificate[] = [
     date: "05/September/2026",
     skills: ["Data Science", "Generative AI"],
     image: "/certificates/ds-genai-pw.png",
-    credentialUrl: "", // TODO: add certificate/credential link
+    credentialUrl: "https://pwskills.com/learn/certificate/c44450c8-8f2a-415d-b32b-6108978953cf/?isCareerPath=true", 
   },
   {
     id: "genai-pw",
@@ -37,7 +26,7 @@ export const certificates: Certificate[] = [
     date: "26/April/2026",
     skills: ["Generative AI"],
     image: "/certificates/genai-pw.png",
-    credentialUrl: "",
+    credentialUrl: "https://pwskills.com/learn/certificate/333c11c9-adf0-46fb-876a-253233243144/",
   },
   {
     id: "fullstack-apna",
@@ -61,10 +50,10 @@ export const certificates: Certificate[] = [
     id: "cyber-cisco",
     name: "Cyber Security Essentials",
     issuer: "Cisco NetAcad",
-    date: "TODO: add date",
+    date: "04/July/2023",
     skills: ["Cyber Security"],
-    image: "/certificates/ds-genai-pw.png",
-    credentialUrl: "",
+    image: "/certificates/Cyber_security_essentials.png",
+    credentialUrl: "https://www.netacad.com/certificates/?issuanceId=1824a61b-ad67-4f98-bce7-579becac34cf",
   },
   {
     id: "forage-genai",
@@ -79,10 +68,39 @@ export const certificates: Certificate[] = [
   id: "simplilearn-fullstack-101",
   name: "Full-Stack Development 101",
   issuer: "Simplilearn SkillUp",
-  date: "July 2025",
+  date: "20/July/2025",
   skills: ["Full-Stack Development", "Web Development", "Frontend Development", "Backend Development"],
   image: "/certificates/simplilearn-fullstack-101.png",
-  credentialUrl: "",
+  credentialUrl: "https://lms.simplilearn.com/courses/6075/Full-Stack%20Development%20101/certificate/download-skillup",
+},
+{
+  id: "cisco-introduction-cybersecurity",
+  name: "Introduction to Cybersecurity",
+  issuer: "Cisco Networking Academy",
+  date: "04 July 2023",
+  skills: ["Cybersecurity","Network Security","Security Fundamentals"],
+  image: "/certificates/Introduction_to_cybersecurity.png",
+  credentialUrl: "https://www.netacad.com/certificates/?issuanceId=80ab10a4-6f9b-4734-8474-03699499f3af",
+},
+
+{
+  id: "cisco-introduction-packet-tracer",
+  name: "Introduction to Packet Tracer",
+  issuer: "Cisco Networking Academy",
+  date: "04 July 2023",
+  skills: ["Cisco Packet Tracer","Networking","Network Simulation"],
+  image: "/certificates/Introduction_to_packet_tracer.png",
+  credentialUrl: "https://www.netacad.com/certificates/?issuanceId=7e584926-2946-4c5e-bf77-bf1c4a53817d",
+},
+
+{
+  id: "cisco-partner-cloud-security",
+  name: "Partner: Cloud Security",
+  issuer: "Cisco Networking Academy",
+  date: "05 July 2023",
+  skills: ["Cloud Security","Cybersecurity","Security Fundamentals"],
+  image: "/certificates/Partner_cloud_security.png",
+  credentialUrl: "https://www.netacad.com/certificates/?issuanceId=272877d9-82cf-4c9b-a473-6c61363b8778",
 },
   {
     id: "aicte-shell",
